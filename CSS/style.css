@@ -1,0 +1,108 @@
+body {
+    margin: 5% 10%;
+    text-align: center;
+    font-family: verdana, sans-serif;
+    background-image: url("../Images/backimage.jpg");
+    border-radius: 10px;
+    color: white;
+    font-weight: 900;
+}
+
+h1 {
+    margin: 10 0;
+    font-family: 'Bad Script', cursive;
+    font-size: 50px;
+}
+
+h3 {
+    font-family: 'Megrim', cursive;
+    font-size: 30px;
+    top: 10px;
+}
+
+h2 {
+    font-family: 'Megrim', cursive;
+    font-size: 25px;
+    width: 400px;
+    text-align: center;
+
+
+
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    top: 10px;
+}
+
+.giphy-embed {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.projectContainer {
+
+    width: 400px;
+    height: 400px;
+    margin: 5px;
+    display: inline-flex;
+    text-align: center;
+    border: 2px white solid;
+
+}
+
+.linkToGit{
+    padding: 2%;
+    border: 2px solid white;
+    width: 20%;
+    align-self: center;
+    border-radius: 10px;
+    background-color: rgb(58, 172, 172);
+    text-decoration: none;
+    color: white;
+     margin-bottom: 5px;
+
+}
+
+.linkToGit:hover{
+background-color: white;
+color: rgb(58, 172, 172);
+}
+
+.buttonApp {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    top: 350px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+   
+}
+
+.projectImage {
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+    
+    margin-left: 10%;
+
+}
+
+.projectItems {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.middle-container i{
+    font-size: 50px;
+}
